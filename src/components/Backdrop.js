@@ -1,5 +1,9 @@
 function Backdrop(props) {
-  return <div className='backdrop' onClick={props.onClick} />;
+  // JSX
+  return (
+    <div className='backdrop' 
+         onClick={props.onClick} />
+  );
 }
 
 export default Backdrop;

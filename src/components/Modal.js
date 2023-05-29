@@ -1,4 +1,5 @@
 function Modal(props) {
+  // JSX
   return (
     <div className='modal'>
       <p>{props.text}</p>
