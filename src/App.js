@@ -18,12 +18,15 @@ function App() {
       }
 
       setTasks(loadedTasks);
+      console.log(loadedTasks);
     };
 
     fetchTasks(
       { url: 'https://react-http-e0a76-default-rtdb.firebaseio.com/tasks.json' },
       transformTasks
     );
+
+    
   }, [fetchTasks]);
 
   const taskAddHandler = (task) => {
